@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ═══════════════════════ PRIMARY SEO ═══════════════════════ -->
+  <title>Muskoka Wide Taxi | Reliable On-Demand Taxi Service Across Muskoka, Ontario</title>
+  <meta name="description" content="Muskoka Wide Taxi provides reliable, on-demand taxi service throughout the District of Muskoka. Serving Huntsville, Bracebridge, Gravenhurst, Port Carling & more. Up to 7 passengers. Call (705) 394-5944.">
+  <meta name="keywords" content="Muskoka taxi, Huntsville taxi, Bracebridge taxi, Gravenhurst taxi, Port Carling taxi, Muskoka transportation, cottage country taxi, on-demand taxi Muskoka, taxi service Ontario">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Muskoka Wide Taxi">
+  <meta name="geo.region" content="CA-ON">
+  <meta name="geo.placename" content="Bracebridge, Ontario">
+  <link rel="canonical" href="https://muskokawidetaxi.com/">
+
+  <!-- ═══════════════════════ OPEN GRAPH ═══════════════════════ -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://muskokawidetaxi.com/">
+  <meta property="og:site_name" content="Muskoka Wide Taxi">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:title" content="Muskoka Wide Taxi | Your Neighbourhood Ride, Muskoka-Wide">
+  <meta property="og:description" content="Reliable, on-demand taxi service across the entire District of Muskoka. Friendly drivers, clean minivans up to 7 passengers. Call (705) 394-5944.">
+  <meta property="og:image" content="https://muskokawidetaxi.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Muskoka Wide Taxi — fleet of white minivan taxis in Muskoka cottage country">
+
+  <!-- ═══════════════════════ TWITTER CARD ═══════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Muskoka Wide Taxi | Your Neighbourhood Ride, Muskoka-Wide">
+  <meta name="twitter:description" content="Reliable, on-demand taxi service across the District of Muskoka. Call (705) 394-5944.">
+  <meta name="twitter:image" content="https://muskokawidetaxi.com/og-image.jpg">
+  <meta name="twitter:image:alt" content="Muskoka Wide Taxi fleet">
+
+  <!-- ═══════════════════════ STRUCTURED DATA ═══════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TaxiService",
+    "name": "Muskoka Wide Taxi",
+    "description": "Reliable, on-demand taxi service throughout the District of Muskoka with spacious minivans accommodating up to 7 passengers and professionally trained drivers.",
+    "url": "https://muskokawidetaxi.com",
+    "telephone": "+17053945944",
+    "email": "muskokawidetaxi@outlook.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "450 Ecclestone Drive",
+      "addressLocality": "Bracebridge",
+      "addressRegion": "ON",
+      "postalCountry": "CA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.0167,
+      "longitude": -79.3153
+    },
+    "areaServed": [
+      "Huntsville", "Bracebridge", "Gravenhurst", "Dwight", "Dorset",
+      "Port Sydney", "Utterson", "Port Carling", "Port Sandfield",
+      "Rosseau", "Minett", "Mactier", "Kilworthy", "Severn"
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://www.facebook.com/MuskokaWideTaxi/",
+      "https://share.google/8dMzt7MCDLsqkSMAA"
+    ],
+    "priceRange": "$$"
+  }
+  </script>
+
+  <!-- ═══════════════════════ FONTS & STYLES ═══════════════════════ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy:      '#0D2E6E',
+            'navy-dk': '#091F4D',
+            brand:     '#CC2128',
+            'brand-dk':'#A8191F',
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans:  ['Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+
+    /* Hero full-bleed background */
+    .hero-section {
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba(9,31,77,0.78) 0%,
+          rgba(9,31,77,0.55) 45%,
+          rgba(9,31,77,0.88) 100%
+        ),
+        url('https://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_1920,h_1080/crm/muskokaon/MWT-VAN_7D0A6C14-9AF1-3F3D-E3586DCD1EF5D3BC-7d0a6a7006d949d_7d0a7ddd-d897-c3bf-4d500ff1197b1f34.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    /* Nav drop shadow */
+    .nav-shadow { box-shadow: 0 2px 24px rgba(9,31,77,0.18); }
+
+    /* Pulse ring on call CTA */
+    .cta-pulse { position: relative; }
+    .cta-pulse::after {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border-radius: 9999px;
+      background: rgba(204,33,40,0.35);
+      animation: pulse-ring 2s ease-out infinite;
+    }
+    @keyframes pulse-ring {
+      0%   { transform: scale(1);   opacity: 0.8; }
+      100% { transform: scale(1.25); opacity: 0; }
+    }
+
+    /* Area cards */
+    .area-card:hover { transform: translateY(-2px); }
+
+    /* Smooth scroll offset for fixed nav */
+    [id] { scroll-margin-top: 80px; }
+  </style>
+</head>
+
+<body class="bg-white text-gray-900 font-sans antialiased">
+
+  <!-- ═══════════════════════════════════════════════════════════
+       STICKY NAVIGATION
+  ═══════════════════════════════════════════════════════════ -->
+  <header id="nav" class="fixed top-0 inset-x-0 z-50 bg-white nav-shadow transition-all duration-300">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
+
+      <!-- Logo -->
+      <a href="#top" class="flex items-center gap-3 flex-shrink-0" aria-label="Muskoka Wide Taxi — home">
+        <svg width="48" height="48" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="100" cy="100" r="95" fill="white" stroke="#0D2E6E" stroke-width="9"/>
+          <!-- Inner arcs -->
+          <path d="M 32 100 A 68 68 0 0 1 168 100" fill="none" stroke="#0D2E6E" stroke-width="9"/>
+          <path d="M 32 100 A 68 68 0 0 0 168 100" fill="none" stroke="#0D2E6E" stroke-width="9"/>
+          <!-- MUSKOKA WIDE on top arc -->
+          <defs>
+            <path id="na-top" d="M 18 98 A 82 82 0 0 1 182 98"/>
+            <path id="na-bot" d="M 20 102 A 80 80 0 0 0 180 102"/>
+          </defs>
+          <text font-family="Arial Black,Arial" font-weight="900" font-size="18" fill="#CC2128" letter-spacing="2">
+            <textPath href="#na-top" startOffset="9%">MUSKOKA WIDE</textPath>
+          </text>
+          <!-- TAXI -->
+          <text x="100" y="118" text-anchor="middle" dominant-baseline="auto"
+                font-family="Arial Black,Arial" font-weight="900" font-size="50" fill="#CC2128">TAXI</text>
+          <!-- Maple leaves -->
+          <text x="31"  y="122" font-size="20" fill="#CC2128">🍁</text>
+          <text x="143" y="122" font-size="20" fill="#CC2128">🍁</text>
+          <!-- Phone on bottom arc -->
+          <text font-family="Arial Black,Arial" font-weight="900" font-size="15" fill="#CC2128" letter-spacing="1">
+            <textPath href="#na-bot" startOffset="6%">705-394-5944</textPath>
+          </text>
+        </svg>
+        <div class="hidden sm:block leading-tight">
+          <div class="text-navy font-extrabold text-xs tracking-[0.2em] uppercase">Muskoka Wide</div>
+          <div class="text-brand font-black text-xl tracking-widest uppercase leading-none">TAXI</div>
+        </div>
+      </a>
+
+      <!-- Desktop nav links -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-navy" aria-label="Main navigation">
+        <a href="#about"   class="hover:text-brand transition-colors duration-200">About</a>
+        <a href="#areas"   class="hover:text-brand transition-colors duration-200">Service Areas</a>
+        <a href="#contact" class="hover:text-brand transition-colors duration-200">Contact</a>
+      </nav>
+
+      <!-- CTA — always visible -->
+      <a href="tel:+17053945944"
+         class="inline-flex items-center gap-2 bg-brand hover:bg-brand-dk text-white font-bold text-sm px-4 py-2.5 rounded-full transition-all duration-200 hover:scale-105 shadow-md flex-shrink-0"
+         aria-label="Call Muskoka Wide Taxi at (705) 394-5944">
+        <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.32.57 3.56.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.29 21 3 13.71 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02L6.6 10.8z"/>
+        </svg>
+        <span class="hidden sm:inline">(705) 394-5944</span>
+        <span class="sm:hidden">Call Now</span>
+      </a>
+
+    </div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════════════════════ -->
+  <main id="top">
+  <section class="hero-section min-h-screen flex items-center justify-center text-white pt-16" aria-label="Hero">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center py-28">
+
+      <!-- Pill badge -->
+      <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 text-xs sm:text-sm font-semibold tracking-wide mb-7">
+        <span aria-hidden="true">🍁</span> Proudly Serving Muskoka's Cottage Country
+      </div>
+
+      <!-- Headline -->
+      <h1 class="font-serif text-5xl sm:text-6xl md:text-7xl font-black leading-tight mb-4 drop-shadow-lg">
+        Muskoka Wide Taxi
+      </h1>
+
+      <!-- Tagline -->
+      <p class="text-2xl sm:text-3xl font-bold text-white mb-3 leading-snug">
+        Your Neighbourhood Ride,<br>
+        <span class="text-[#e84a50]">Muskoka-Wide.</span>
+      </p>
+
+      <!-- Pills -->
+      <div class="flex items-center justify-center flex-wrap gap-3 mt-5 mb-10 text-sm font-semibold">
+        <span class="bg-navy/60 border border-white/20 px-4 py-1.5 rounded-full backdrop-blur-sm">Reliable</span>
+        <span class="text-brand" aria-hidden="true">•</span>
+        <span class="bg-navy/60 border border-white/20 px-4 py-1.5 rounded-full backdrop-blur-sm">Local</span>
+        <span class="text-brand" aria-hidden="true">•</span>
+        <span class="bg-navy/60 border border-white/20 px-4 py-1.5 rounded-full backdrop-blur-sm">Professional</span>
+      </div>
+
+      <!-- CTA row -->
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a href="tel:+17053945944"
+           class="cta-pulse inline-flex items-center gap-3 bg-brand hover:bg-brand-dk text-white font-black text-lg sm:text-xl px-8 py-4 rounded-full shadow-2xl transition-all duration-200 hover:scale-105"
+           aria-label="Call to book a taxi at (705) 394-5944">
+          <svg class="w-6 h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.32.57 3.56.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.29 21 3 13.71 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02L6.6 10.8z"/>
+          </svg>
+          Call to Book — (705) 394-5944
+        </a>
+
+        <a href="https://share.google/8dMzt7MCDLsqkSMAA"
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white font-semibold px-6 py-4 rounded-full transition-all duration-200 hover:scale-105"
+           aria-label="Find Muskoka Wide Taxi on Google (opens in new tab)">
+          <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+          Find Us on Google
+        </a>
+      </div>
+
+      <!-- Scroll hint -->
+      <div class="mt-20 animate-bounce opacity-60" aria-hidden="true">
+        <svg class="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FEATURES BAR
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="bg-navy text-white py-12" aria-label="Key features">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+
+        <!-- Feature 1 -->
+        <div class="flex flex-col items-center gap-4 px-4 py-2">
+          <div class="w-16 h-16 rounded-full bg-brand flex items-center justify-center shadow-lg flex-shrink-0" aria-hidden="true">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+            </svg>
+          </div>
+          <div>
+            <div class="font-bold text-lg leading-snug">Friendly, Professional Drivers</div>
+            <div class="text-blue-200 text-sm mt-1 leading-relaxed">Local knowledge, courteous service every single ride</div>
+          </div>
+        </div>
+
+        <!-- Dividers (desktop only) -->
+        <div class="flex flex-col items-center gap-4 px-4 py-2 border-y md:border-y-0 md:border-x border-white/10">
+          <div class="w-16 h-16 rounded-full bg-brand flex items-center justify-center shadow-lg flex-shrink-0" aria-hidden="true">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.08 3.11H5.77L6.85 7zM19 17H5v-5h14v5z"/>
+              <circle cx="7.5" cy="14.5" r="1.5"/>
+              <circle cx="16.5" cy="14.5" r="1.5"/>
+            </svg>
+          </div>
+          <div>
+            <div class="font-bold text-lg leading-snug">Clean, Comfortable Vehicles</div>
+            <div class="text-blue-200 text-sm mt-1 leading-relaxed">Spacious minivans comfortably seating up to 7 passengers</div>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="flex flex-col items-center gap-4 px-4 py-2">
+          <div class="w-16 h-16 rounded-full bg-brand flex items-center justify-center shadow-lg flex-shrink-0" aria-hidden="true">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+            </svg>
+          </div>
+          <div>
+            <div class="font-bold text-lg leading-snug">Stress-Free, Worry-Free Travel</div>
+            <div class="text-blue-200 text-sm mt-1 leading-relaxed">Safe, on-time, on-demand — whenever you need us</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+
+        <!-- Copy -->
+        <div>
+          <div class="text-brand font-bold text-xs tracking-[0.25em] uppercase mb-3">About Us</div>
+          <h2 class="font-serif text-4xl md:text-5xl font-black text-navy leading-tight mb-6">
+            Your Muskoka Ride,<br>Any Time.
+          </h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-5">
+            Muskoka Wide Taxi is your trusted local transportation provider throughout cottage country. Whether you're heading to the dock, the airport, a dinner, or a medical appointment — we'll get you there safely and on time.
+          </p>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            Our spacious minivans seat up to <strong class="text-navy font-semibold">7 passengers</strong> and our professionally trained drivers bring real local knowledge to every trip. On-demand availability, service that spans the entire District of Muskoka, and a genuine commitment to our community — every time.
+          </p>
+
+          <!-- Stat chips -->
+          <div class="flex flex-wrap gap-3 mb-8">
+            <div class="bg-[#F2F4F7] rounded-xl px-5 py-3 text-center">
+              <div class="font-black text-3xl text-navy leading-none">7</div>
+              <div class="text-xs text-gray-500 font-semibold mt-0.5">Max Passengers</div>
+            </div>
+            <div class="bg-[#F2F4F7] rounded-xl px-5 py-3 text-center">
+              <div class="font-black text-3xl text-navy leading-none">14</div>
+              <div class="text-xs text-gray-500 font-semibold mt-0.5">Communities Served</div>
+            </div>
+            <div class="bg-[#F2F4F7] rounded-xl px-5 py-3 text-center">
+              <div class="font-black text-3xl text-navy leading-none">24/7</div>
+              <div class="text-xs text-gray-500 font-semibold mt-0.5">On-Demand</div>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3">
+            <a href="tel:+17053945944"
+               class="inline-flex items-center justify-center gap-2 bg-brand hover:bg-brand-dk text-white font-bold px-6 py-3.5 rounded-full transition-all duration-200 hover:scale-105 shadow-md"
+               aria-label="Call (705) 394-5944">
+              <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.32.57 3.56.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.29 21 3 13.71 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02L6.6 10.8z"/>
+              </svg>
+              (705) 394-5944
+            </a>
+            <a href="https://www.facebook.com/MuskokaWideTaxi/" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-2 border-2 border-navy text-navy hover:bg-navy hover:text-white font-bold px-6 py-3.5 rounded-full transition-all duration-200 hover:scale-105"
+               aria-label="Follow Muskoka Wide Taxi on Facebook (opens in new tab)">
+              <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              Follow on Facebook
+            </a>
+          </div>
+        </div>
+
+        <!-- Fleet photo -->
+        <div class="relative">
+          <div class="rounded-2xl overflow-hidden shadow-2xl ring-4 ring-navy/10">
+            <img
+              src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_1920,h_1080/crm/muskokaon/MWT-VAN_7D0A6C14-9AF1-3F3D-E3586DCD1EF5D3BC-7d0a6a7006d949d_7d0a7ddd-d897-c3bf-4d500ff1197b1f34.jpg"
+              alt="Three Muskoka Wide Taxi white Dodge Grand Caravan minivans parked against Muskoka's Canadian Shield rock face and forest"
+              class="w-full h-72 lg:h-[420px] object-cover"
+              loading="lazy"
+              width="960" height="540"
+            >
+          </div>
+          <!-- Floating accent chips -->
+          <div class="absolute -bottom-5 -left-5 bg-navy text-white rounded-xl px-5 py-3 shadow-xl">
+            <div class="font-black text-2xl leading-none">7</div>
+            <div class="text-blue-200 text-xs font-semibold mt-0.5">Passengers Max</div>
+          </div>
+          <div class="absolute -top-5 -right-5 bg-brand text-white rounded-xl px-5 py-3 shadow-xl text-center">
+            <div class="text-xs font-semibold leading-none">On-Demand</div>
+            <div class="font-black text-lg leading-snug">24/7</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SERVICE AREAS
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="areas" class="py-20 bg-[#F2F4F7]">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+
+      <div class="text-brand font-bold text-xs tracking-[0.25em] uppercase mb-3">Coverage</div>
+      <h2 class="font-serif text-4xl md:text-5xl font-black text-navy mb-4">We Go Where You Need to Go</h2>
+      <p class="text-gray-500 text-lg mb-12 max-w-2xl mx-auto leading-relaxed">
+        From Huntsville in the north to Severn in the south, Muskoka Wide Taxi covers the entire District — every community, every season.
+      </p>
+
+      <!-- Grid rendered by JS below -->
+      <div id="areas-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3" aria-label="Service areas"></div>
+
+      <p class="mt-8 text-gray-400 text-sm">
+        Not sure if we cover your area?
+        <a href="tel:+17053945944" class="text-brand font-semibold hover:underline">Give us a call</a> — we'll sort it out.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       BIG CTA BAND
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="bg-navy py-20 text-white text-center" aria-label="Book a ride">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="text-5xl mb-5" aria-hidden="true">🍁</div>
+      <h2 class="font-serif text-4xl md:text-5xl font-black mb-4">Ready to Ride?</h2>
+      <p class="text-blue-200 text-lg mb-10 leading-relaxed">
+        No app, no wait — just pick up the phone. We're here whenever you need us across Muskoka.
+      </p>
+
+      <a href="tel:+17053945944"
+         class="inline-flex items-center gap-3 bg-brand hover:bg-brand-dk text-white font-black text-2xl md:text-3xl px-10 py-5 rounded-full shadow-2xl transition-all duration-200 hover:scale-105 mb-10"
+         aria-label="Call Muskoka Wide Taxi at (705) 394-5944">
+        <svg class="w-8 h-8 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.32.57 3.56.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.29 21 3 13.71 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02L6.6 10.8z"/>
+        </svg>
+        (705) 394-5944
+      </a>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm text-blue-200">
+        <a href="mailto:muskokawidetaxi@outlook.com" class="flex items-center gap-2 hover:text-white transition-colors duration-200">
+          <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          muskokawidetaxi@outlook.com
+        </a>
+        <span class="hidden sm:inline text-blue-400" aria-hidden="true">|</span>
+        <a href="https://share.google/8dMzt7MCDLsqkSMAA" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors duration-200">
+          <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+          </svg>
+          Google Business
+        </a>
+        <span class="hidden sm:inline text-blue-400" aria-hidden="true">|</span>
+        <a href="https://www.facebook.com/MuskokaWideTaxi/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-white transition-colors duration-200">
+          <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════════ -->
+  <footer id="contact" class="bg-navy-dk text-white py-14">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10 border-b border-white/10">
+
+        <!-- Brand -->
+        <div class="flex flex-col gap-4">
+          <div class="flex items-center gap-3">
+            <svg width="60" height="60" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Muskoka Wide Taxi logo">
+              <circle cx="100" cy="100" r="95" fill="white" stroke="#0D2E6E" stroke-width="9"/>
+              <path d="M 32 100 A 68 68 0 0 1 168 100" fill="none" stroke="#0D2E6E" stroke-width="9"/>
+              <path d="M 32 100 A 68 68 0 0 0 168 100" fill="none" stroke="#0D2E6E" stroke-width="9"/>
+              <defs>
+                <path id="ft-top" d="M 18 98 A 82 82 0 0 1 182 98"/>
+                <path id="ft-bot" d="M 20 102 A 80 80 0 0 0 180 102"/>
+              </defs>
+              <text font-family="Arial Black,Arial" font-weight="900" font-size="18" fill="#CC2128" letter-spacing="2">
+                <textPath href="#ft-top" startOffset="9%">MUSKOKA WIDE</textPath>
+              </text>
+              <text x="100" y="118" text-anchor="middle" font-family="Arial Black,Arial" font-weight="900" font-size="50" fill="#CC2128">TAXI</text>
+              <text x="31"  y="122" font-size="20" fill="#CC2128">🍁</text>
+              <text x="143" y="122" font-size="20" fill="#CC2128">🍁</text>
+              <text font-family="Arial Black,Arial" font-weight="900" font-size="15" fill="#CC2128" letter-spacing="1">
+                <textPath href="#ft-bot" startOffset="6%">705-394-5944</textPath>
+              </text>
+            </svg>
+          </div>
+          <p class="text-blue-200 text-sm leading-relaxed max-w-xs">
+            Your neighbourhood ride, Muskoka-wide.<br>
+            Reliable · Local · Professional.
+          </p>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h3 class="font-bold text-xs tracking-[0.2em] uppercase text-blue-300 mb-5">Contact</h3>
+          <ul class="space-y-4 text-blue-100 text-sm">
+            <li>
+              <a href="tel:+17053945944" class="flex items-start gap-3 hover:text-white transition-colors duration-200" aria-label="Phone: (705) 394-5944">
+                <svg class="w-4 h-4 text-brand mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.32.57 3.56.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.29 21 3 13.71 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02L6.6 10.8z"/>
+                </svg>
+                (705) 394-5944
+              </a>
+            </li>
+            <li>
+              <a href="mailto:muskokawidetaxi@outlook.com" class="flex items-start gap-3 hover:text-white transition-colors duration-200">
+                <svg class="w-4 h-4 text-brand mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                muskokawidetaxi@outlook.com
+              </a>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-4 h-4 text-brand mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+              <address class="not-italic">450 Ecclestone Drive<br>Bracebridge, ON</address>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Social / links -->
+        <div>
+          <h3 class="font-bold text-xs tracking-[0.2em] uppercase text-blue-300 mb-5">Find Us Online</h3>
+          <ul class="space-y-4 text-sm">
+            <li>
+              <a href="https://share.google/8dMzt7MCDLsqkSMAA" target="_blank" rel="noopener noreferrer"
+                 class="flex items-center gap-3 text-blue-100 hover:text-white transition-colors duration-200"
+                 aria-label="Muskoka Wide Taxi on Google Business (opens in new tab)">
+                <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                </svg>
+                Google Business
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/MuskokaWideTaxi/" target="_blank" rel="noopener noreferrer"
+                 class="flex items-center gap-3 text-blue-100 hover:text-white transition-colors duration-200"
+                 aria-label="Muskoka Wide Taxi on Facebook (opens in new tab)">
+                <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                Facebook — @MuskokaWideTaxi
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="pt-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-blue-300 text-xs">
+        <span>© 2026 Muskoka Wide Taxi. All rights reserved.</span>
+        <span>Bracebridge, Ontario, Canada 🍁</span>
+      </div>
+    </div>
+  </footer>
+  </main>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SCRIPTS
+  ═══════════════════════════════════════════════════════════ -->
+  <script>
+    // ── Nav shrink on scroll ──────────────────────────────────
+    const navEl = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      navEl.classList.toggle('shadow-lg', window.scrollY > 60);
+    }, { passive: true });
+
+    // ── Render service areas grid ─────────────────────────────
+    const areas = [
+      'Huntsville', 'Bracebridge', 'Gravenhurst', 'Dwight', 'Dorset',
+      'Port Sydney', 'Utterson', 'Port Carling', 'Port Sandfield',
+      'Rosseau', 'Minett', 'Mactier', 'Kilworthy', 'Severn'
+    ];
+    const grid = document.getElementById('areas-grid');
+    if (grid) {
+      grid.innerHTML = areas.map(area => `
+        <div class="area-card bg-white border-2 border-transparent hover:border-[#CC2128] rounded-xl px-3 py-4 text-center transition-all duration-200 hover:shadow-md cursor-default">
+          <span class="text-[#CC2128] text-lg block mb-1.5 transition-transform duration-200 hover:scale-110 inline-block" aria-hidden="true">🍁</span>
+          <span class="font-semibold text-[#0D2E6E] text-sm">${area}</span>
+        </div>
+      `).join('');
+    }
+  </script>
+
+</body>
+</html>
