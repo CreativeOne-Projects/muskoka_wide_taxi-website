@@ -15,9 +15,6 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   deploy:
     name: Deploy
@@ -29,11 +26,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
