@@ -24,6 +24,7 @@
   <meta name="theme-color" content="#0D2E6E">
 
   <!-- ═══════════════════════ OPEN GRAPH ═══════════════════════ -->
+  <!-- PRODUCTION — restore (and remove the staging block below) once muskokawidetaxi.com is live:
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://muskokawidetaxi.com/">
   <meta property="og:site_name" content="Muskoka Wide Taxi">
@@ -34,12 +35,28 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Muskoka Wide Taxi — Your Neighbourhood Ride, Muskoka-Wide. Call (705) 394-5944.">
+  -->
+
+  <!-- STAGING (GitHub Pages) — temporary; swap back to the production block above when the domain is live -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://creativeone-projects.github.io/muskoka_wide_taxi-website/">
+  <meta property="og:site_name" content="Muskoka Wide Taxi">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:title" content="Muskoka Wide Taxi | Your Neighbourhood Ride, Muskoka-Wide">
+  <meta property="og:description" content="Reliable, on-demand taxi service across the entire District of Muskoka. Friendly drivers, clean minivans up to 7 passengers. Call (705) 394-5944.">
+  <meta property="og:image" content="https://creativeone-projects.github.io/muskoka_wide_taxi-website/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Muskoka Wide Taxi — Your Neighbourhood Ride, Muskoka-Wide. Call (705) 394-5944.">
 
   <!-- ═══════════════════════ TWITTER CARD ═══════════════════════ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Muskoka Wide Taxi | Your Neighbourhood Ride, Muskoka-Wide">
   <meta name="twitter:description" content="Reliable, on-demand taxi service across the District of Muskoka. Call (705) 394-5944.">
+  <!-- PRODUCTION twitter:image (restore with the OG production block):
   <meta name="twitter:image" content="https://muskokawidetaxi.com/assets/og-image.jpg">
+  -->
+  <meta name="twitter:image" content="https://creativeone-projects.github.io/muskoka_wide_taxi-website/assets/og-image.jpg">
   <meta name="twitter:image:alt" content="Muskoka Wide Taxi — Your Neighbourhood Ride, Muskoka-Wide.">
 
   <!-- ═══════════════════════ STRUCTURED DATA ═══════════════════════ -->
@@ -490,12 +507,12 @@
   ═══════════════════════════════════════════════════════════ -->
   <footer id="contact" class="bg-navy-dk text-white py-14">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 pb-14 border-b border-white/10">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 pb-14 border-b border-white/10">
 
         <!-- Brand -->
         <div class="flex flex-col gap-4">
           <div class="flex items-center gap-3">
-            <img src="assets/mwt-logo.png" alt="Muskoka Wide Taxi logo" width="92" height="92" class="w-22 h-22 object-contain">
+            <img src="assets/mwt-logo.png" alt="Muskoka Wide Taxi logo" width="85" height="85" class="w-20 h-20 object-contain">
           </div>
           <p class="text-blue-200 text-sm leading-relaxed max-w-xs">
             Your neighbourhood ride, Muskoka-wide.<br>
@@ -504,7 +521,7 @@
         </div>
 
         <!-- Contact -->
-        <div>
+        <div class="md:w-fit md:ml-auto">
           <h3 class="font-bold text-xs tracking-[0.2em] uppercase text-blue-300 mb-5">Contact</h3>
           <ul class="space-y-4 text-blue-100 text-sm">
             <li>
@@ -531,7 +548,7 @@
         </div>
 
         <!-- Social / links -->
-        <div>
+        <div class="md:w-fit md:ml-auto">
           <h3 class="font-bold text-xs tracking-[0.2em] uppercase text-blue-300 mb-5">Find Us Online</h3>
           <ul class="space-y-4 text-sm">
             <li>
